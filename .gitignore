@@ -1,1 +1,21 @@
 OCR/
+
+# Model Files
+*.bin
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+*.gguf
+*.onnx
+*.h5
+
+#Model Folder
+models/
+checkpoints/
+weights/
+
+# HuggingFace Cache
+.cache/
+~/.cache/huggingface/
+
