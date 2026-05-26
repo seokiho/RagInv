@@ -14,8 +14,10 @@ OCR/
 models/
 checkpoints/
 weights/
+db/
 
 # HuggingFace Cache
 .cache/
 ~/.cache/huggingface/
 
+Prj_RAG/
