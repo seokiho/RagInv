@@ -1,6 +1,19 @@
-OCR/
+# macOS
+.DS_Store
+.DS_Store?
 
-# Model Files
+# Python
+.venv/
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# 환경변수
+.env
+.env.*
+
+# 대용량 모델/가중치 파일
 *.bin
 *.pt
 *.pth
@@ -10,14 +23,45 @@ OCR/
 *.onnx
 *.h5
 
-#Model Folder
+# 모델 폴더
 models/
 checkpoints/
 weights/
+adapters/
+
+# 레거시 폴더
+OCR/
 db/
-
-# HuggingFace Cache
-.cache/
-~/.cache/huggingface/
-
 Prj_RAG/
+
+# FAISS DB (대용량 — rsync/USB로 이동)
+data/db/
+data/db_aihub/
+data/db_aihub_criminal/
+data/db_sectional/
+data/db_sectional_criminal/
+
+# 임시/백업/로그
+data/backup/
+data/raw/
+data/ingest.log
+data/ingest_criminal.log
+
+# AIHUB 원본 데이터 (3.5GB)
+AIHUB/
+
+# 추론 결과 (대용량 jsonl)
+results/preds_*.jsonl
+
+# 로그
+logs/
+
+# HuggingFace 캐시
+.cache/
+
+# 빌드 산출물
+crime_build/
+*.egg-info/
+dist/
+build/
+

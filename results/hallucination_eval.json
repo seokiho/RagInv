@@ -1,0 +1,87 @@
+{
+  "total_case_nums_generated": 1589,
+  "hallucinated": 264,
+  "hallucination_rate": 0.1661,
+  "examples": [
+    {
+      "source_id": "100038",
+      "hallucinated_num": "2019나30249"
+    },
+    {
+      "source_id": "127616",
+      "hallucinated_num": "2018나2001283"
+    },
+    {
+      "source_id": "127616",
+      "hallucinated_num": "2018나1590"
+    },
+    {
+      "source_id": "132247",
+      "hallucinated_num": "2002모265"
+    },
+    {
+      "source_id": "135916",
+      "hallucinated_num": "2015가합555724"
+    },
+    {
+      "source_id": "135916",
+      "hallucinated_num": "2001도2319"
+    },
+    {
+      "source_id": "137971",
+      "hallucinated_num": "2015도3260"
+    },
+    {
+      "source_id": "138202",
+      "hallucinated_num": "2019구합74386"
+    },
+    {
+      "source_id": "138202",
+      "hallucinated_num": "2008도4665"
+    },
+    {
+      "source_id": "138202",
+      "hallucinated_num": "2007도2134"
+    },
+    {
+      "source_id": "138202",
+      "hallucinated_num": "2008도4665"
+    },
+    {
+      "source_id": "138202",
+      "hallucinated_num": "2008도4665"
+    },
+    {
+      "source_id": "138255",
+      "hallucinated_num": "2009다99754"
+    },
+    {
+      "source_id": "139689",
+      "hallucinated_num": "2010가단25432"
+    },
+    {
+      "source_id": "143318",
+      "hallucinated_num": "2001도4546"
+    },
+    {
+      "source_id": "144259",
+      "hallucinated_num": "2005도6404"
+    },
+    {
+      "source_id": "144459",
+      "hallucinated_num": "2018가합101377"
+    },
+    {
+      "source_id": "144479",
+      "hallucinated_num": "2018헌바146"
+    },
+    {
+      "source_id": "144621",
+      "hallucinated_num": "2010도14257"
+    },
+    {
+      "source_id": "144621",
+      "hallucinated_num": "2003도5382"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+# ── Core ML ──────────────────────────────────────────────────
+numpy>=1.26
+sentence-transformers>=3.1         # Korean embeddings (jhgan/ko-sroberta-multitask)
+faiss-cpu>=1.8                     # Vector search (no LangChain wrapper)
+
+# ── Web server ────────────────────────────────────────────────
+fastapi>=0.114.0
+uvicorn[standard]>=0.30.0
+httpx>=0.27.0                      # Ollama client (async-capable)
+
+# ── Settings & utils ──────────────────────────────────────────
+pydantic-settings>=2.0
+python-dotenv>=1.0
+tqdm>=4.66
+pandas>=2.2
+
+# ── Korean NLP ────────────────────────────────────────────────
+kiwipiepy>=0.18.0                  # Korean tokenizer (for chunking)
+rank-bm25>=0.2.2                   # BM25 hybrid retrieval (research ablation)
+
+# ── Research / paper ─────────────────────────────────────────
+rouge-score>=0.1.2                 # ROUGE metrics
+scipy>=1.13                        # Cosine similarity, stats
+
+# ── DB migration (one-time: LangChain → raw FAISS) ───────────
+# These are ONLY needed to run scripts/migrate_db.py once.
+# After migration you can remove them.
+langchain-community>=0.3.0
+langchain-openai>=0.2.0
+openai>=1.43.0

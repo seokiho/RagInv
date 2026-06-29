@@ -1,0 +1,58 @@
+{
+  "n_evaluated": 1563,
+  "n_skipped": 0,
+  "crime_n": 878,
+  "crime_accuracy": 0.0,
+  "crime_f1": 0.0853,
+  "law_coverage_n": 551,
+  "law_coverage_rate": 0.3525,
+  "law_f1_gold_n": 717,
+  "law_f1_prefix": {
+    "f1": 0.3416,
+    "prec": 0.3522,
+    "rec": 0.3507
+  },
+  "law_f1_article": {
+    "f1": 0.3424,
+    "prec": 0.356,
+    "rec": 0.3483
+  },
+  "law_f1_exact": {
+    "f1": 0.3154,
+    "prec": 0.3267,
+    "rec": 0.3224
+  },
+  "law_f1_by_doctype": {
+    "case": {
+      "f1": 0.3562,
+      "prec": 0.3551,
+      "rec": 0.3721,
+      "n": 377
+    },
+    "decision": {
+      "f1": 0.3249,
+      "prec": 0.3524,
+      "rec": 0.3213,
+      "n": 333
+    },
+    "interpretation": {
+      "f1": 0.4286,
+      "prec": 0.5714,
+      "rec": 0.3571,
+      "n": 7
+    }
+  },
+  "language_error_n": 61,
+  "language_error_rate": 0.039,
+  "language_error_sentence_n": 6,
+  "by_jurisdiction": {
+    "criminal": {
+      "accuracy": 0.0,
+      "f1": 0.0853,
+      "crime_n": 878,
+      "language_error_n": 61,
+      "language_error_rate": 0.039,
+      "n": 1563
+    }
+  }
+}

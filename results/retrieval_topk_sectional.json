@@ -1,0 +1,45 @@
+{
+  "overall": {
+    "Recall@3": 0.4555,
+    "MRR@3": 0.4123,
+    "Recall@5": 0.4952,
+    "MRR@5": 0.4213,
+    "Recall@10": 0.5317,
+    "MRR@10": 0.426,
+    "Recall@20": 0.5713,
+    "MRR@20": 0.4288,
+    "n_queries": 1563
+  },
+  "by_jurisdiction": {
+    "criminal": {
+      "Recall@3": 0.4555,
+      "MRR@3": 0.4123,
+      "Recall@5": 0.4952,
+      "MRR@5": 0.4213,
+      "Recall@10": 0.5317,
+      "MRR@10": 0.426,
+      "Recall@20": 0.5713,
+      "MRR@20": 0.4288
+    }
+  },
+  "by_doc_type": {
+    "case": {
+      "Recall@3": 0.5615,
+      "Recall@5": 0.6025,
+      "Recall@10": 0.6344,
+      "Recall@20": 0.6811
+    },
+    "decision": {
+      "Recall@3": 0.3142,
+      "Recall@5": 0.3525,
+      "Recall@10": 0.3953,
+      "Recall@20": 0.4263
+    },
+    "interpretation": {
+      "Recall@3": 0.8571,
+      "Recall@5": 0.8571,
+      "Recall@10": 0.8571,
+      "Recall@20": 0.8571
+    }
+  }
+}

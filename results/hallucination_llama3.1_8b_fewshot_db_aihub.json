@@ -1,0 +1,93 @@
+{
+  "n_docs": 1563,
+  "docs_citing_case_nums": 228,
+  "docs_no_case_nums": 1335,
+  "docs_with_hallucination": 57,
+  "hallucination_rate_per_doc": 0.0365,
+  "hallucination_rate_per_cited_doc": 0.25,
+  "total_case_nums_generated": 433,
+  "hallucinated_case_nums": 78,
+  "hallucination_rate_per_num": 0.1801,
+  "examples": [
+    {
+      "source_id": "135916",
+      "hallucinated_num": "2001도2319"
+    },
+    {
+      "source_id": "138202",
+      "hallucinated_num": "2008도4665"
+    },
+    {
+      "source_id": "144306",
+      "hallucinated_num": "2016도21075"
+    },
+    {
+      "source_id": "144306",
+      "hallucinated_num": "2005도5996"
+    },
+    {
+      "source_id": "144621",
+      "hallucinated_num": "2010도14257"
+    },
+    {
+      "source_id": "149882",
+      "hallucinated_num": "2008도8868"
+    },
+    {
+      "source_id": "153132",
+      "hallucinated_num": "2006도755"
+    },
+    {
+      "source_id": "154361",
+      "hallucinated_num": "2005도4640"
+    },
+    {
+      "source_id": "154361",
+      "hallucinated_num": "2006도9089"
+    },
+    {
+      "source_id": "154361",
+      "hallucinated_num": "2006도9089"
+    },
+    {
+      "source_id": "154717",
+      "hallucinated_num": "2005다7177"
+    },
+    {
+      "source_id": "169796",
+      "hallucinated_num": "2015도3260"
+    },
+    {
+      "source_id": "205527",
+      "hallucinated_num": "2015도3260"
+    },
+    {
+      "source_id": "205534",
+      "hallucinated_num": "2011도10451"
+    },
+    {
+      "source_id": "205553",
+      "hallucinated_num": "2004도2965"
+    },
+    {
+      "source_id": "205553",
+      "hallucinated_num": "2011헌가22"
+    },
+    {
+      "source_id": "220185",
+      "hallucinated_num": "2003도3000"
+    },
+    {
+      "source_id": "220541",
+      "hallucinated_num": "2011도1764"
+    },
+    {
+      "source_id": "220803",
+      "hallucinated_num": "2016헌마1115"
+    },
+    {
+      "source_id": "220803",
+      "hallucinated_num": "2019헌가18"
+    }
+  ]
+}

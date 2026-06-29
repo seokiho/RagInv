@@ -1,0 +1,14 @@
+{
+  "n_evaluated": 1563,
+  "n_skipped": 0,
+  "crime_accuracy": 0.0,
+  "crime_f1": 0.0768,
+  "law_citation_acc": 0.5202,
+  "by_jurisdiction": {
+    "criminal": {
+      "accuracy": 0.0,
+      "f1": 0.0768,
+      "n": 1563
+    }
+  }
+}
